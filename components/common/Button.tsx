@@ -1,13 +1,11 @@
-import React from 'react';
-import { ButtonProps } from '../../interfaces';
+import React from 'react'
 
-export default function Button({ label, onClick }: ButtonProps) {
+function Button() {
   return (
-    <button
-      onClick={onClick}
-      className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
-    >
-      {label}
-    </button>
-  );
+    <div>
+      
+    </div>
+  )
 }
+
+export default Button

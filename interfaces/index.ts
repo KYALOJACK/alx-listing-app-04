@@ -1,4 +1,11 @@
+import { StaticImport } from "next/dist/shared/lib/get-img-props";
+import { Key, ReactNode } from "react";
+
 export interface PropertyProps {
+  id: Key | null | undefined;
+  imageUrl: string | StaticImport;
+  location: ReactNode;
+  title: string;
   name: string;
   address: {
     state: string;

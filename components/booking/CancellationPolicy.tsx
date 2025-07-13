@@ -1,4 +1,3 @@
-
 const CancellationPolicy = () => (
   <div className="mt-6">
     <h2 className="text-xl font-semibold">Cancellation policy</h2>
